@@ -54,7 +54,7 @@ body {
 .school-row {
     border-top: 1.5px solid rgb(55, 146, 235);
     border-bottom: 1.5px solid rgb(55, 146, 235);
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 .school-text {
@@ -110,4 +110,32 @@ body {
 
     font-size: 12px;
     font-weight: bold;
+}
+
+.card-notice-text {
+    border-bottom: 3px solid rgb(55, 146, 235);
+}
+
+.btn-primary {
+    background-color:  rgb(55, 146, 235);
+    color: white;
+
+    transition: 0.8s;
+}
+.btn-primary:hover {
+    background-color: #ffb6cd;
+    color: rgb(55, 146, 235);
+    border: #ffb6cd;
+}
+
+.card-img-top {
+    border-radius: 5%;
+}
+.notice-card-img {
+    width: 700px;
+    height: 300px;
+}
+.notice-card-img img {
+    width: 700px;
+    height: 300px;
 }
