@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.top-nav-row {
+    background-color: rgb(55, 146, 235);
+    font-weight: bolder;
+}
+
+.top-color {
+    color: white;
+}
+
+.top-color:hover {
+    color: #ffb6cd;
+}
+
+.top-nav {
+    margin-left: 1500px;
+}
+
+.logo-row {
+    height: 100px;
+    padding-top: 25px;
+}
+
+.card {
+    margin: 0 auto;
+    border: none;
+}
+
+.midle-row {
+    padding-left: 500px;
+
+    border-top: 1.5px solid rgb(55, 146, 235);
+    border-bottom: 1.5px solid rgb(55, 146, 235);
+}
+
+.midle-row>.nav>.nav-item>.nav-link {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(55, 146, 235);
+}
+
+.midle-row>.nav>.nav-item>.nav-link:hover {
+    color: #ffb6cd;
+}
+
+.slide-img img {
+    width: 1903.4px;
+}
+.school-row {
+    border-top: 1.5px solid rgb(55, 146, 235);
+    border-bottom: 1.5px solid rgb(55, 146, 235);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.school-text {
+    font-weight: bold;
+    margin: 0 auto;
+
+    text-align: center;
+    color: #ffb6cd;
+}
+
+.card-header {
+    border-bottom: 4px solid rgb(55, 146, 235);
+    font-weight: bold;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-deck h5 {
+    font-weight: bold;
+}
+.card-deck p {
+    font-size: 13px;
+    font-weight: bold;
+
+    color: gray;
+}
+
+.card-deck {
+    overflow: hidden;
+
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.card-deck img {
+    width: 360px;
+    height: 200px;
+
+    transition: 0.4s;
+}
+.card-deck img:hover {
+    transform: scale(1.02);
+}
+
+.footer{
+    background-color: #333333;
+    color: #777777;
+    list-style-type: none;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
