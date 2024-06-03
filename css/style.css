@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -37,6 +40,8 @@ body {
 
     border-top: 1.5px solid rgb(55, 146, 235);
     border-bottom: 1.5px solid rgb(55, 146, 235);
+
+    margin-bottom: 20px;
 }
 
 .midle-row>.nav>.nav-item>.nav-link {
@@ -147,4 +152,37 @@ body {
 .notice-cardbody {
     background-color: rgb(55, 146, 235);
     color: white;
+}
+
+.up_down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 28px;
+
+    width: 85px;
+    height: 50px;
+    border-radius: 10%;
+
+
+    position: fixed;
+    top: 850px;
+    right: 50px;
+
+    background-color: white;
+}
+button {
+    border: none;
+}
+a {
+   color:  rgb(55, 146, 235); 
+}
+a:hover {
+    color:  rgb(55, 146, 235);
+}
+.up,.down {
+    width: 43px;
+    height: 1px;
+    border-radius: 100%;
 }
