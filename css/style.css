@@ -11,6 +11,7 @@ body {
 
 .top-color {
     color: white;
+    transition: 0.8s;
 }
 
 .top-color:hover {
@@ -42,6 +43,8 @@ body {
     font-size: larger;
     font-weight: bold;
     color: #ffb6cd;
+
+    transition: 0.8s;
 }
 
 .midle-row>.nav>.nav-item>.nav-link:hover {
@@ -104,6 +107,7 @@ body {
     color: #777777;
     list-style-type: none;
 
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 150px;
@@ -113,19 +117,19 @@ body {
 }
 
 .card-notice-text {
-    border-bottom: 3px solid rgb(55, 146, 235);
+    border-bottom: 3px solid #ffb6cd;
 }
 
 .btn-primary {
     background-color:  rgb(55, 146, 235);
-    color: white;
-
     transition: 0.8s;
+    border: 1px solid white;
 }
+
 .btn-primary:hover {
-    background-color: #ffb6cd;
+    background-color: white;
     color: rgb(55, 146, 235);
-    border: #ffb6cd;
+    border: 1px solid rgb(55, 146, 235);
 }
 
 .card-img-top {
@@ -138,4 +142,9 @@ body {
 .notice-card-img img {
     width: 700px;
     height: 300px;
+}
+
+.notice-cardbody {
+    background-color: rgb(55, 146, 235);
+    color: white;
 }
