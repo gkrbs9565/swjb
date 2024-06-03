@@ -41,11 +41,11 @@ body {
 .midle-row>.nav>.nav-item>.nav-link {
     font-size: larger;
     font-weight: bold;
-    color: rgb(55, 146, 235);
+    color: #ffb6cd;
 }
 
 .midle-row>.nav>.nav-item>.nav-link:hover {
-    color: #ffb6cd;
+    color: rgb(55, 146, 235);
 }
 
 .slide-img img {
