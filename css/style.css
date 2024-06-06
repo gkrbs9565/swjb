@@ -1,19 +1,23 @@
+/* Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
 }
+
 a {
     text-decoration: none !important;
 }
+
+/* Header (Navigation) */
 header {
     position: fixed;
-    margin-left: 1200px;
-
-    width: 600px;
+    margin-left: 1180px;
+    width: 650px;
     height: 50px;
     padding: 1rem;
     color: rgb(15, 43, 126);
@@ -24,17 +28,14 @@ header {
     justify-content: space-around;
     align-items: center;
     border-radius: 0px 0px 25px 25px;
-
     z-index: 10;
 }
+
 header>nav>a {
     text-decoration: none;
     color: inherit;
     padding: 30px;
     transition: 0.2s;
-}
-nav {
-    display: flex;
 }
 
 header>nav>a:hover {
@@ -42,17 +43,19 @@ header>nav>a:hover {
     transform: scale(1.08);
 }
 
+/* Logo Row */
 .logo-row {
     margin-top: 35px;
     height: 80px;
 }
+
+/* Typing Effect */
 .typing {
     height: 55px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     font-size: 1.8rem;
-
     position: absolute;
     top: 635px;
     left: 310px;
@@ -74,6 +77,7 @@ header>nav>a:hover {
     border-right: 8px solid none;
     animation: cursor .9s infinite steps(2);
 }
+
 @keyframes cursor {
     from {
         border-right: 8px solid #ffffff;
@@ -83,15 +87,11 @@ header>nav>a:hover {
         border-right: 8px solid none;
     }
 }
-.card {
-    margin: 0 auto;
-    border: none;
-}
 
+/* Middle Row (Navigation) */
 .midle-row {
     padding-left: 250px;
     background-color: rgb(218, 224, 240);
-
     margin-bottom: 20px;
 }
 
@@ -99,49 +99,84 @@ header>nav>a:hover {
     font-size: larger;
     font-weight: bold;
     color: rgb(15, 43, 126);
-
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .midle-row>.nav>.nav-item>.nav-link:hover {
     color: rgb(81, 152, 211);
 }
 
+/* Slide Image */
 .slide-img img {
     width: 1903.4px;
 }
+
+/* School Story Row */
 .school-row {
     margin-top: 60px;
     margin-bottom: 30px;
 }
-.school-text {
-    font-weight: bold;
-    margin: 0 auto;
 
+.school-text {
+    font-weight: bolder;
+    margin: 0 auto;
     text-align: center;
     color: rgb(15, 43, 126);
 }
 
-.card-header {
-    border-bottom: 4px solid rgb(177, 193, 230);
-    font-weight: bold;
+/* Card */
+.card {
+    margin: 0 auto;
+    border: none;
 }
+
+.card-header {
+    border-bottom: 4px solid rgb(15, 43, 126);
+    font-weight: 900;
+    background-color: rgb(196, 209, 243);
+    border-radius: 5%;
+}
+
 .card-title {
     font-weight: bold;
 }
+
 .card-deck h5 {
     font-weight: bold;
 }
+
 .card-deck p {
     font-size: 13px;
     font-weight: bold;
-
     color: gray;
 }
 
+/* Notice Section */
+
+.notice-cardbody {
+    background-color: rgb(218, 224, 240);
+    color: black;
+    border-radius: 5%;
+    height: 305px;
+    border: 1px solid rgb(196, 209, 243);
+}
+
+.card-notice-text {
+    border-bottom: 3px solid black;
+}
+.notice-wihth {
+    width: 315px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-notice {
+    width: 1300px;
+    margin-left: 324px;
+    margin-bottom: 10px;
+}
+/* Card Deck */
 .card-deck {
     overflow: hidden;
-
     text-align: center;
     margin-bottom: 70px;
 }
@@ -149,62 +184,58 @@ header>nav>a:hover {
 .card-deck img {
     width: 360px;
     height: 200px;
-
     transition: 0.4s;
 }
+
 .card-deck img:hover {
     transform: scale(1.02);
 }
 
-.footer{
-    background-color: #333333;
-    color: #777777;
-    list-style-type: none;
-
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 150px;
-
-    font-size: 12px;
-    font-weight: bold;
+.card-img-top {
+    border-radius: 20px;
 }
 
-.card-notice-text {
-    border-bottom: 3px solid black;
+/* Notice Card Image */
+.notice-card-img {
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
+.notice-card-img img {
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* Buttons */
 .btn-primary {
-    background-color:  rgb(176, 186, 212);
-    transition: 0.8s;
+    background-color: rgb(176, 186, 212);
+    transition: 0.5s;
     border: 1px solid black;
     color: black;
 }
 
 .btn-primary:hover {
     background-color: rgb(128, 151, 211);
-    color:black;
+    color: black;
     border: 1px solid black;
 }
-.card-img-top {
-    border-radius: 20px;
-}
-.notice-card-img {
-    width: 700px;
-    height: 300px;
-    border-radius: 20px;
 
-    overflow: hidden;
-}
-.notice-card-img img {
-    width: 700px;
-    height: 300px;
-
-    border-radius: 20px;
+/* Footer */
+.footer {
+    background-color: #333333;
+    color: #777777;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
-.notice-cardbody {
-    background-color: rgb(218, 224, 240);
-    color: black;
-    border-radius: 5%;
+.footer>li {
+    margin-bottom: 5px;
 }

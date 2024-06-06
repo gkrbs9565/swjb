@@ -1,3 +1,4 @@
+// 타이핑 효과 js
 const $text = document.querySelector(".typing .text");
 
 // 글자 모음
@@ -30,3 +31,11 @@ function wait(ms) {
 
 // 초기 실행
 setTimeout(typing, 1500);
+
+$(document).ready(function(){
+    $('#datepicker').datepicker({
+        format: 'mm/dd/yyyy',
+        autoclose: true,
+        todayHighlight: true
+    });
+});
