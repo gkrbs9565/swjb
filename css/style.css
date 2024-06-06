@@ -11,10 +11,10 @@ a {
 }
 header {
     position: fixed;
-    margin-left: 1300px;
+    margin-left: 1200px;
 
-    width: 500px;
-    height: 64px;
+    width: 600px;
+    height: 50px;
     padding: 1rem;
     color: rgb(15, 43, 126);
     background: rgba(196, 209, 243, 0.726);
@@ -30,7 +30,7 @@ header {
 header>nav>a {
     text-decoration: none;
     color: inherit;
-    padding: 40px;
+    padding: 30px;
     transition: 0.2s;
 }
 nav {
@@ -54,17 +54,17 @@ header>nav>a:hover {
     font-size: 1.8rem;
 
     position: absolute;
-    top: 500px;
-    left: 320px;
+    top: 635px;
+    left: 310px;
     text-align: center;
 }
 
 .text {
     font-size: 2.2rem;
-    margin-left: .6rem;
+    margin-left: 0.6rem;
     color: #ffffff;
     font-size: 70px;
-
+    font-weight: bold;
     z-index: 10;
 }
 
