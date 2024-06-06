@@ -18,6 +18,7 @@ header {
     padding: 1rem;
     color: rgb(15, 43, 126);
     background: rgba(196, 209, 243, 0.726);
+    font-size: 18px;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
@@ -45,7 +46,43 @@ header>nav>a:hover {
     margin-top: 35px;
     height: 80px;
 }
+.typing {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.8rem;
 
+    position: absolute;
+    top: 500px;
+    left: 320px;
+    text-align: center;
+}
+
+.text {
+    font-size: 2.2rem;
+    margin-left: .6rem;
+    color: #ffffff;
+    font-size: 70px;
+
+    z-index: 10;
+}
+
+.text::after {
+    content: '';
+    margin-left: .4rem;
+    border-right: 8px solid none;
+    animation: cursor .9s infinite steps(2);
+}
+@keyframes cursor {
+    from {
+        border-right: 8px solid #ffffff;
+    }
+
+    to {
+        border-right: 8px solid none;
+    }
+}
 .card {
     margin: 0 auto;
     border: none;
