@@ -1,0 +1,112 @@
+/* 전역 스타일 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* 로고 스타일 */
+.logo-row {
+    margin-top: 35px;
+    height: 80px;
+}
+
+.card {
+    margin: 0 auto;
+    border: none;
+}
+
+/* 미들 로우 스타일 */
+.midle-row {
+    padding-left: 250px;
+    background-color: rgb(218, 224, 240);
+    margin-bottom: 20px;
+}
+
+.midle-row > .nav > .nav-item > .nav-link {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(15, 43, 126);
+    transition: 0.2s;
+}
+
+.midle-row > .nav > .nav-item > .nav-link:hover {
+    color: rgb(81, 152, 211);
+}
+
+/* 로그인 스타일 */
+.log-in {
+    margin-top: 81px;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+
+.log-in > .row > h1 {
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.log-in button {
+    width: 600px;
+    height: 50px;
+    background-color: rgb(81, 152, 211);
+    color: rgb(218, 224, 240);
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 210px;
+}
+
+.log-in button:hover {
+    background-color: rgb(81, 152, 211);
+    color: rgb(15, 43, 126);
+    transition: 0.3s;
+}
+
+.log-in .button2 {
+    width: 600px;
+    height: 50px;
+    background-color: #f5ca0f;
+    color: black;
+    border: none;
+    margin-left: 210px;
+}
+
+.log-in .button2:hover {
+    background-color: #f5ca0f;
+    color: white;
+}
+
+.input-group-text {
+    border: none;
+}
+
+.input-group p {
+    padding-top: 17px;
+}
+
+/* 푸터 스타일 */
+.footer {
+    background-color: #333333;
+    color: #777777;
+    list-style-type: none;
+    margin-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer > li {
+    margin-bottom: 5px;
+}

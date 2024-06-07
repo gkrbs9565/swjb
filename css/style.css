@@ -1,4 +1,4 @@
-/* Global Styles */
+/* 전역 스타일 */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 html {
@@ -13,7 +13,7 @@ a {
     text-decoration: none !important;
 }
 
-/* Header (Navigation) */
+/* 헤더 (네비게이션) */
 header {
     position: fixed;
     margin-left: 1180px;
@@ -31,25 +31,25 @@ header {
     z-index: 10;
 }
 
-header>nav>a {
+header > nav > a {
     text-decoration: none;
     color: inherit;
     padding: 30px;
     transition: 0.2s;
 }
 
-header>nav>a:hover {
+header > nav > a:hover {
     color: rgb(128, 151, 211);
     transform: scale(1.08);
 }
 
-/* Logo Row */
+/* 로고 로우 */
 .logo-row {
     margin-top: 35px;
     height: 80px;
 }
 
-/* Typing Effect */
+/* 타이핑 효과 */
 .typing {
     height: 55px;
     display: flex;
@@ -82,36 +82,30 @@ header>nav>a:hover {
     from {
         border-right: 8px solid #ffffff;
     }
-
     to {
         border-right: 8px solid none;
     }
 }
 
-/* Middle Row (Navigation) */
+/* 미들 로우 (네비게이션) */
 .midle-row {
     padding-left: 250px;
     background-color: rgb(218, 224, 240);
     margin-bottom: 20px;
 }
 
-.midle-row>.nav>.nav-item>.nav-link {
+.midle-row > .nav > .nav-item > .nav-link {
     font-size: larger;
     font-weight: bold;
     color: rgb(15, 43, 126);
     transition: 0.2s;
 }
 
-.midle-row>.nav>.nav-item>.nav-link:hover {
+.midle-row > .nav > .nav-item > .nav-link:hover {
     color: rgb(81, 152, 211);
 }
 
-/* Slide Image */
-.slide-img img {
-    width: 1903.4px;
-}
-
-/* School Story Row */
+/* 스쿨 스토리 로우 */
 .school-row {
     margin-top: 60px;
     margin-bottom: 30px;
@@ -124,7 +118,7 @@ header>nav>a:hover {
     color: rgb(15, 43, 126);
 }
 
-/* Card */
+/* 카드 */
 .card {
     margin: 0 auto;
     border: none;
@@ -151,8 +145,7 @@ header>nav>a:hover {
     color: gray;
 }
 
-/* Notice Section */
-
+/* 공지사항 섹션 */
 .notice-cardbody {
     background-color: rgb(218, 224, 240);
     color: black;
@@ -164,17 +157,20 @@ header>nav>a:hover {
 .card-notice-text {
     border-bottom: 3px solid black;
 }
+
 .notice-wihth {
     width: 315px;
     display: flex;
     justify-content: space-between;
 }
+
 .main-notice {
     width: 1300px;
     margin-left: 324px;
     margin-bottom: 10px;
 }
-/* Card Deck */
+
+/* 카드 덱 */
 .card-deck {
     overflow: hidden;
     text-align: center;
@@ -195,7 +191,7 @@ header>nav>a:hover {
     border-radius: 20px;
 }
 
-/* Notice Card Image */
+/* 공지사항 카드 이미지 */
 .notice-card-img {
     width: 700px;
     height: 300px;
@@ -209,7 +205,7 @@ header>nav>a:hover {
     border-radius: 20px;
 }
 
-/* Buttons */
+/* 버튼 */
 .btn-primary {
     background-color: rgb(176, 186, 212);
     transition: 0.5s;
@@ -223,7 +219,7 @@ header>nav>a:hover {
     border: 1px solid black;
 }
 
-/* Footer */
+/* 푸터 */
 .footer {
     background-color: #333333;
     color: #777777;
@@ -236,6 +232,6 @@ header>nav>a:hover {
     font-weight: bold;
 }
 
-.footer>li {
+.footer > li {
     margin-bottom: 5px;
 }
