@@ -107,7 +107,7 @@ header > nav > a:hover {
 
 /* 스쿨 스토리 로우 */
 .school-row {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -144,7 +144,20 @@ header > nav > a:hover {
     font-weight: bold;
     color: gray;
 }
-
+.card-news {
+    width: 360px;
+}
+.notice {
+    width: 1175px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -20px;
+}
+.card-news-body {
+    border: 1px solid rgb(176, 186, 212);
+    border-radius: 0px 0px 10px 10px;
+}
 /* 공지사항 섹션 */
 .notice-cardbody {
     background-color: rgb(218, 224, 240);
@@ -204,7 +217,28 @@ header > nav > a:hover {
     height: 300px;
     border-radius: 20px;
 }
+/*뉴스*/
+.news-img {
+    margin-left: -540px;
+    margin-bottom: 100px;
+}
+.news-img img {
+    width: 600px;
+    height: 300px;
+}
 
+.list-group {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border: none;
+    left: 1000px;
+}
+.list-group-item {
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid #c5c5c5;
+}
 /* 버튼 */
 .btn-primary {
     background-color: rgb(176, 186, 212);

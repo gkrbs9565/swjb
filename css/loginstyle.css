@@ -71,21 +71,10 @@ a {
     color: rgb(15, 43, 126);
     transition: 0.3s;
 }
-
-.log-in .button2 {
-    width: 600px;
-    height: 50px;
-    background-color: #f5ca0f;
-    color: black;
-    border: none;
-    margin-left: 210px;
+.input-group {
+    margin-left: 160px;
+    width: 700px;
 }
-
-.log-in .button2:hover {
-    background-color: #f5ca0f;
-    color: white;
-}
-
 .input-group-text {
     border: none;
 }
@@ -93,7 +82,9 @@ a {
 .input-group p {
     padding-top: 17px;
 }
-
+.form-control {
+    border: 1px solid #777777;
+}
 /* 푸터 스타일 */
 .footer {
     background-color: #333333;
