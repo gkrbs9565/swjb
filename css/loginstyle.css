@@ -1,4 +1,4 @@
-/* 전역 스타일 */
+/* 전체 스타일 */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 html {
@@ -84,7 +84,6 @@ header>nav>a:hover {
 .sub-menu {
     width: 170px;
     height: 189px;
-
 }
 
 .midle-row {
@@ -109,6 +108,7 @@ header>nav>a:hover {
 }
 
 /* 로그인 스타일 */
+
 .log-in {
     margin-top: 81px;
     width: 1000px;
@@ -123,13 +123,13 @@ header>nav>a:hover {
 }
 
 .log-in button {
-    width: 600px;
+    width: 700px;
     height: 50px;
     background-color: rgb(81, 152, 211);
     color: rgb(218, 224, 240);
     border: none;
     margin-bottom: 20px;
-    margin-left: 210px;
+    margin-left: 160px;
 }
 
 .log-in button:hover {
@@ -152,6 +152,7 @@ header>nav>a:hover {
 }
 
 .form-control {
+    height: 50px;
     border: 1px solid #777777;
 }
 

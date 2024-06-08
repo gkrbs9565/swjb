@@ -118,7 +118,6 @@ header>nav>a:hover {
 .sub-menu {
     width: 170px;
     height: 189px;
-
 }
 
 .midle-row {
@@ -252,14 +251,14 @@ header>nav>a:hover {
 
 /* 공지사항 카드 이미지 */
 .notice-card-img {
-    width: 700px;
+    width: 675px;
     height: 300px;
     border-radius: 20px;
     overflow: hidden;
 }
 
 .notice-card-img img {
-    width: 700px;
+    width: 675px;
     height: 300px;
     border-radius: 20px;
 }
