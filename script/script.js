@@ -32,14 +32,8 @@ function wait(ms) {
 // 초기 실행
 setTimeout(typing, 1500);
 
-$(document).ready(function(){
-    $('#datepicker').datepicker({
-        format: 'mm/dd/yyyy',
-        autoclose: true,
-        todayHighlight: true
-    });
-});
 
+//서브메뉴
 $(document).ready(function() {
     $('.nav-link').on('click', function(e) {
         e.preventDefault();

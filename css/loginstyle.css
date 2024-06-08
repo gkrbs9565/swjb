@@ -13,6 +13,36 @@ a {
     text-decoration: none !important;
 }
 
+/* 헤더*/
+header {
+    position: fixed;
+    margin-left: 1280px;
+    width: 550px;
+    height: 50px;
+    padding: 1rem;
+    color: rgb(15, 43, 126);
+    background: rgba(196, 209, 243, 0.726);
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 25px 25px;
+    z-index: 10;
+}
+
+header>nav>a {
+    text-decoration: none;
+    color: inherit;
+    padding: 30px;
+    transition: 0.2s;
+}
+
+header>nav>a:hover {
+    color: rgb(128, 151, 211);
+    transform: scale(1.08);
+}
+
 /* 로고 스타일 */
 .logo-row {
     margin-top: 35px;
@@ -38,7 +68,7 @@ a {
     top: 100%;
     left: 0;
     z-index: 1000;
-    
+
     padding-top: 10px;
     padding-right: 35px;
 
