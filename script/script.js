@@ -39,3 +39,12 @@ $(document).ready(function(){
         todayHighlight: true
     });
 });
+
+$(document).ready(function() {
+    $('.nav-link').on('click', function(e) {
+        e.preventDefault();
+        var targetId = '#detailNav' + this.id.slice(-1);
+        $('.detail-navbar').not(targetId).slideUp();
+        $(targetId).slideToggle();
+    });
+});

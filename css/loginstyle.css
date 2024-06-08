@@ -25,21 +25,54 @@ a {
 }
 
 /* 미들 로우 스타일 */
+.nav-item {
+    position: relative;
+}
+
+.detail-navbar {
+    width: 210px;
+    height: 160px;
+    display: none;
+    background-color: white;
+
+    border-top: 1px solid rgb(15, 43, 126);
+    z-index: 1000;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    border-radius: 0px 0px 5px 5px;
+    padding-top: 5px;
+    padding-right: 35px;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(15, 43, 126);
+}
+
+.sub-menu {
+    width: 170px;
+    height: 189px;
+
+}
+
 .midle-row {
-    padding-left: 250px;
+    padding-left: 140px;
     background-color: rgb(218, 224, 240);
     margin-bottom: 20px;
 }
 
-.midle-row > .nav > .nav-item > .nav-link {
+.midle-row>.nav>.nav-item>.nav-link {
     font-size: larger;
     font-weight: bold;
     color: rgb(15, 43, 126);
     transition: 0.2s;
 }
 
-.midle-row > .nav > .nav-item > .nav-link:hover {
+.midle-row>.nav>.nav-item>.nav-link:hover {
     color: rgb(81, 152, 211);
+}
+
+.nav-item {
+    position: relative;
 }
 
 /* 로그인 스타일 */
@@ -50,7 +83,7 @@ a {
     text-align: center;
 }
 
-.log-in > .row > h1 {
+.log-in h1 {
     width: 1000px;
     text-align: center;
     margin-bottom: 50px;
@@ -71,10 +104,12 @@ a {
     color: rgb(15, 43, 126);
     transition: 0.3s;
 }
+
 .input-group {
     margin-left: 160px;
     width: 700px;
 }
+
 .input-group-text {
     border: none;
 }
@@ -82,9 +117,11 @@ a {
 .input-group p {
     padding-top: 17px;
 }
+
 .form-control {
     border: 1px solid #777777;
 }
+
 /* 푸터 스타일 */
 .footer {
     background-color: #333333;
@@ -98,6 +135,6 @@ a {
     font-weight: bold;
 }
 
-.footer > li {
+.footer>li {
     margin-bottom: 5px;
 }
