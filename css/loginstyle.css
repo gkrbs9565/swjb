@@ -31,21 +31,24 @@ a {
 
 .detail-navbar {
     width: 210px;
-    height: 160px;
-    display: none;
+    height: 170px;
     background-color: white;
 
-    border-top: 1px solid rgb(15, 43, 126);
-    z-index: 1000;
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 1000;
-    border-radius: 0px 0px 5px 5px;
-    padding-top: 5px;
+    
+    padding-top: 10px;
     padding-right: 35px;
-    font-size: 17px;
+
+    border-radius: 0px 0px 5px 5px;
     border-bottom: 1px solid rgb(15, 43, 126);
+    border-top: 1px solid rgb(15, 43, 126);
+
+    font-size: 17px;
+
+    display: none;
 }
 
 .sub-menu {
