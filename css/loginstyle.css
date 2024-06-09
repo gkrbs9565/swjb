@@ -55,23 +55,20 @@ header>nav>a:hover {
 }
 
 /* 미들 로우 스타일 */
-.nav-item {
-    position: relative;
-}
 
 .detail-navbar {
     width: 210px;
-    height: 170px;
+    height: 190px;
     background-color: white;
 
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 1000;
-
-    padding-top: 10px;
+    
+    padding-top: 15px;
     padding-right: 35px;
-
+    
     border-radius: 0px 0px 5px 5px;
     border-bottom: 1px solid rgb(15, 43, 126);
     border-top: 1px solid rgb(15, 43, 126);
@@ -80,7 +77,9 @@ header>nav>a:hover {
 
     display: none;
 }
-
+.detail-navbar p{
+    padding-bottom: 1px;
+}
 .sub-menu {
     width: 170px;
     height: 189px;
@@ -106,6 +105,7 @@ header>nav>a:hover {
 .nav-item {
     position: relative;
 }
+
 
 /* 로그인 스타일 */
 

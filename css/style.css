@@ -95,7 +95,7 @@ header>nav>a:hover {
 
 .detail-navbar {
     width: 210px;
-    height: 170px;
+    height: 190px;
     background-color: white;
 
     position: absolute;
@@ -103,9 +103,9 @@ header>nav>a:hover {
     left: 0;
     z-index: 1000;
     
-    padding-top: 10px;
+    padding-top: 15px;
     padding-right: 35px;
-
+    
     border-radius: 0px 0px 5px 5px;
     border-bottom: 1px solid rgb(15, 43, 126);
     border-top: 1px solid rgb(15, 43, 126);
@@ -115,6 +115,9 @@ header>nav>a:hover {
     display: none;
 }
 
+.detail-navbar p{
+    padding-bottom: 1px;
+}
 .sub-menu {
     width: 170px;
     height: 189px;
@@ -286,6 +289,9 @@ header>nav>a:hover {
     height: 60px;
     border: none;
     border-bottom: 2px solid #c5c5c5;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 
 /* 버튼 */
