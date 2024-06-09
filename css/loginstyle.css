@@ -115,7 +115,7 @@ header>nav>a:hover {
     background-color: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 145px;
+    margin-bottom: 108px;
 }
 
 .log-in h1 {
@@ -172,7 +172,7 @@ header>nav>a:hover {
     color: #777777;
     list-style-type: none;
     margin-top: 1px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 150px;
     font-size: 12px;
