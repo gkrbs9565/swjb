@@ -1,0 +1,327 @@
+/* 전체 스타일 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* 헤더 (네비게이션) */
+header {
+    position: fixed;
+    margin-left: 1180px;
+    width: 650px;
+    height: 50px;
+    padding: 1rem;
+    color: rgb(15, 43, 126);
+    background: rgba(196, 209, 243, 0.726);
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 25px 25px;
+    z-index: 10;
+}
+
+header>nav>a {
+    text-decoration: none;
+    color: inherit;
+    padding: 30px;
+    transition: 0.2s;
+}
+
+header>nav>a:hover {
+    color: rgb(128, 151, 211);
+    transform: scale(1.08);
+}
+
+/* 로고 로우 */
+.logo-row {
+    margin-top: 35px;
+    height: 80px;
+}
+
+/* 타이핑 효과 */
+.typing {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 635px;
+    left: 310px;
+    text-align: center;
+}
+
+.text {
+    font-size: 2.2rem;
+    margin-left: 0.6rem;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.text::after {
+    content: '';
+    margin-left: .4rem;
+    border-right: 8px solid none;
+    animation: cursor .9s infinite steps(2);
+}
+
+@keyframes cursor {
+    from {
+        border-right: 8px solid #ffffff;
+    }
+
+    to {
+        border-right: 8px solid none;
+    }
+}
+
+/* 미들 로우 (네비게이션) */
+.nav-item {
+    position: relative;
+}
+
+.detail-navbar {
+    width: 210px;
+    height: 190px;
+    background-color: white;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    
+    padding-top: 15px;
+    padding-right: 35px;
+    
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: 1px solid rgb(15, 43, 126);
+    border-top: 1px solid rgb(15, 43, 126);
+
+    font-size: 17px;
+
+    display: none;
+}
+
+.detail-navbar p{
+    padding-bottom: 1px;
+}
+.sub-menu {
+    width: 170px;
+    height: 189px;
+}
+
+.midle-row {
+    padding-left: 140px;
+    background-color: rgb(218, 224, 240);
+    margin-bottom: 20px;
+}
+
+.midle-row>.nav>.nav-item>.nav-link {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(15, 43, 126);
+    transition: 0.2s;
+}
+
+.midle-row>.nav>.nav-item>.nav-link:hover {
+    color: rgb(81, 152, 211);
+}
+
+.nav-item {
+    position: relative;
+}
+
+
+/* 스쿨 스토리 로우 */
+.school-row {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.school-text {
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(15, 43, 126);
+}
+
+.nav-item {
+    position: relative;
+}
+
+/* 카드 */
+.card {
+    margin: 0 auto;
+    border: none;
+}
+
+.card-header {
+    border-bottom: 4px solid rgb(15, 43, 126);
+    font-weight: 900;
+    background-color: rgb(196, 209, 243);
+    border-radius: 5%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-deck h5 {
+    font-weight: bold;
+}
+
+.card-deck p {
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+
+.card-news {
+    width: 360px;
+}
+
+.notice {
+    width: 1175px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -20px;
+}
+
+.card-news-body {
+    border: 1px solid rgb(176, 186, 212);
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* 공지사항 섹션 */
+.notice-cardbody {
+    background-color: rgb(218, 224, 240);
+    color: black;
+    border-radius: 5%;
+    height: 305px;
+    border: 1px solid rgb(196, 209, 243);
+}
+
+.card-notice-text {
+    border-bottom: 3px solid black;
+}
+
+.notice-wihth {
+    width: 315px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-notice {
+    width: 1300px;
+    margin-left: 324px;
+    margin-bottom: 10px;
+}
+
+/* 카드 덱 */
+.card-deck {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.card-deck img {
+    width: 360px;
+    height: 200px;
+    transition: 0.4s;
+}
+
+.card-deck img:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    border-radius: 20px;
+}
+
+/* 공지사항 카드 이미지 */
+.notice-card-img {
+    width: 675px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.notice-card-img img {
+    width: 675px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+/*뉴스*/
+.news-img {
+    margin-left: -540px;
+    margin-bottom: 100px;
+}
+
+.news-img img {
+    width: 600px;
+    height: 300px;
+}
+
+.list-group {
+    width: 500px;
+    height: 300px;
+    border: none;
+    position: absolute;
+    left: 1000px;
+}
+
+.list-group-item {
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid #c5c5c5;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/* 버튼 */
+.btn-primary {
+    background-color: rgb(176, 186, 212);
+    transition: 0.5s;
+    border: 1px solid black;
+    color: black;
+    margin-top: 50px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(128, 151, 211);
+    color: black;
+    border: 1px solid black;
+}
+
+/* 푸터 */
+.footer {
+    background-color: #333333;
+    color: #777777;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer>li {
+    margin-bottom: 5px;
+}
